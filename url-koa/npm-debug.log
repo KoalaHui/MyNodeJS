@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\AppCan\\AppCanStudioPersonalV3.3\\HDK\\emulator\\mas\\node.exe',
+1 verbose cli   'd:\\AppCan\\AppCanStudioPersonalV3.3\\HDK\\emulator\\mas\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'n' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData n
+8 silly fetchNamedPackageData n
+9 silly mapToRegistry name n
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'n',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'n',
+12 silly mapToRegistry   name: 'n',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npm.taobao.org/n
+14 verbose get https://registry.npm.taobao.org/n not expired, no request
+15 silly install normalizeTree
+16 silly loadCurrentTree Finishing
+17 silly loadIdealTree Starting
+18 silly install loadIdealTree
+19 silly cloneCurrentTree Starting
+20 silly install cloneCurrentTreeToIdealTree
+21 silly cloneCurrentTree Finishing
+22 silly loadShrinkwrap Starting
+23 silly install loadShrinkwrap
+24 silly loadShrinkwrap Finishing
+25 silly loadAllDepsIntoIdealTree Starting
+26 silly install loadAllDepsIntoIdealTree
+27 silly rollbackFailedOptional Starting
+28 silly rollbackFailedOptional Finishing
+29 silly runTopLevelLifecycles Finishing
+30 silly install printInstalled
+31 verbose stack Error: Unsupported platform for n@2.1.7: wanted {"name":"n","description":"Interactively Manage All Your Node Versions","version":"2.1.7","author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},"homepage":"https://github.com/tj/n","bugs":{"url":"https://github.com/tj/n/issues"},"contributors":[{"name":"Travis Webb","email":"me@traviswebb.com","url":"tjw.io"},{"name":"Nimit Kalra","email":"me@nimit.io","url":"http://nimit.io"},{"name":"Troy Connor","email":"troy0820@gmail.com","url":"https://github.com/troy0820"}],"keywords":["nvm","node","version","manager","switcher","node","binary","env"],"bin":{"n":"./bin/n"},"repository":{"type":"git","url":"git://github.com/tj/n.git"},"preferGlobal":true,"os":["!win32"],"engines":{"node":"*"},"license":"MIT","gitHead":"bcec70577549a9a11d89d10284f8890f0debf6d6","_id":"n@2.1.7","scripts":{},"_shasum":"13fe032a5bed0797983bddf27eb0606517c73c74","_from":"n","_npmVersion":"4.4.1","_nodeVersion":"7.7.3","_npmUser":{"name":"troy0820","email":"troy0820@gmail.com"},"dist":{"shasum":"13fe032a5bed0797983bddf27eb0606517c73c74","size":9466,"noattachment":false,"tarball":"http://registry.npm.taobao.org/n/download/n-2.1.7.tgz"},"maintainers":[{"name":"bat","email":"ben@benatkin.com"},{"name":"qw3rtman","email":"nimit@nimitkalra.com"},{"name":"tedgaydos","email":"tedgaydos@gmail.com"},{"name":"tjholowaychuk","email":"tj@vision-media.ca"},{"name":"tjwebb","email":"me@traviswebb.com"},{"name":"troy0820","email":"troy.connor@yahoo.com"}],"_npmOperationalInternal":{"host":"packages-12-west.internal.npmjs.com","tmp":"tmp/n-2.1.7.tgz_1490918508873_0.5233936926815659"},"directories":{},"publish_time":1490918510869,"_hasShrinkwrap":false,"_cnpm_publish_time":1490918510869,"_resolved":"http://registry.npm.taobao.org/n/download/n-2.1.7.tgz","_requested":{"raw":"n","scope":null,"escapedName":"n","name":"n","rawSpec":"","spec":"latest","type":"tag"},"_spec":"n","_where":"E:\\workProgect\\MyNodeJS\\hello-koa","_args":[[{"raw":"n","scope":null,"escapedName":"n","name":"n","rawSpec":"","spec":"latest","type":"tag"},"E:\\workProgect\\MyNodeJS\\hello-koa"]],"readme":"ERROR: No README data found!"} (current: {"os":"win32","cpu":"x64"})
+31 verbose stack     at checkPlatform (d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\node_modules\npm-install-checks\index.js:45:14)
+31 verbose stack     at thenWarnEngineIssues (d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\lib\install\validate-args.js:41:5)
+31 verbose stack     at d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\node_modules\iferr\index.js:13:50
+31 verbose stack     at checkEngine (d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\node_modules\npm-install-checks\index.js:24:10)
+31 verbose stack     at module.exports.isInstallable (d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\lib\install\validate-args.js:38:3)
+31 verbose stack     at Array.<anonymous> (d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+31 verbose stack     at LOOP (d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+31 verbose stack     at d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+31 verbose stack     at checkSelf (d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\lib\install\validate-args.js:46:72)
+31 verbose stack     at Array.<anonymous> (d:\AppCan\AppCanStudioPersonalV3.3\HDK\emulator\mas\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+32 verbose pkgid n@2.1.7
+33 verbose cwd E:\workProgect\MyNodeJS\hello-koa
+34 error Windows_NT 10.0.14393
+35 error argv "d:\\AppCan\\AppCanStudioPersonalV3.3\\HDK\\emulator\\mas\\node.exe" "d:\\AppCan\\AppCanStudioPersonalV3.3\\HDK\\emulator\\mas\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "n"
+36 error node v6.10.2
+37 error npm  v3.10.10
+38 error code EBADPLATFORM
+39 error notsup Unsupported platform for n@2.1.7: wanted {"os":"!win32","arch":"any"} (current: {"os":"win32","arch":"x64"})
+40 error notsup Valid OS:    !win32
+40 error notsup Valid Arch:  any
+40 error notsup Actual OS:   win32
+40 error notsup Actual Arch: x64
+41 verbose exit [ 1, true ]
